@@ -1,7 +1,7 @@
 import express from 'express';
 import getAllCompaniesId from './endpoints/get-all-companies-id.js';
 import getAllBranchesId from './endpoints/get-all-branches-id.js';
-import getAllCompaniesEtBranchesId from '../shops/get-all-companies-and-branch-ids.js';
+import getAllCompaniesEtBranchesId from './endpoints/get-all-companies-and-branch-ids.js';
 import getCompanyData from './endpoints/get-company-data.js';
 
 const routes = express.Router();
