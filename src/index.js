@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 
-app.use('/wondr/', routes);
+app.use('/', routes);
 
 async function startServer() {
     try {
